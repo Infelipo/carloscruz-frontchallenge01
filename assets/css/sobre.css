@@ -1,0 +1,47 @@
+
+.sobre {
+    padding: 3.5rem 8rem 3.5rem 0;
+    background: #eaf2fd;
+}
+
+.sobre__contenido {
+    margin-right: 15rem;
+    margin-left: 5rem;
+}
+
+.sobre__titulo {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.sobre__descripcion {
+    font-size: 1rem;
+}
+
+.sobre__firma {
+    width: 100px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .sobre {
+        
+        margin: 1.5rem 0;
+        padding: 1rem 0;
+        width: 100%;
+    }
+    
+    .sobre__contenido {
+        
+        margin: 1rem;
+        padding: 0;
+        
+    }
+    
+    .sobre__titulo {
+        
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+}

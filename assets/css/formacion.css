@@ -1,0 +1,67 @@
+.formacion {
+    background: #EAF2FD;
+    margin: 5rem 0;
+    padding: 2rem 0 4rem 0;
+}
+
+.formacion__titulo {
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+}
+
+.formacion__instituciones {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem 0 4rem
+}
+
+
+.formacion__marco {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    width: 350px;
+    height: 250px; 
+ 
+}
+
+.formacion__imagen {    
+    padding: 1rem;
+}
+
+.formacion__nombre {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: .8rem 0 0 0;
+    padding: 0;
+}
+
+.formacion__periodo {    
+    margin: .3rem 0 0 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .formacion {
+        width: 100%;
+        margin: .5rem 0;
+        padding: 1rem 0;
+    }
+
+    .formacion__instituciones {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .formacion__institucion {
+        padding: 1.2rem 0;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .formacion__instituciones {
+        flex-direction: column;
+        align-items: center;
+    }
+}

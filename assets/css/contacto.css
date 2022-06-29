@@ -1,0 +1,125 @@
+.contacto {
+    background: #eaf2fd;   
+}
+
+.contacto__contenido {
+    margin: 2rem 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.contacto__titulo {
+    display: none;    
+}
+
+.contacto__marco {
+    width: 65%;
+    height: 600px;
+    background: url("../images/contacto.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.contacto__descripcion {
+    margin-top: 0rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.contacto__formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__input {
+    margin: .5rem 0rem .5rem 2rem;
+    padding: 1rem 1rem;
+    font-family: "Raleway";
+    font-size: .9rem;
+    border: none;
+    border-bottom: 1px solid #d3d1d1;
+    border-radius: 3px;
+}
+
+.contacto__input:hover {
+    border: none;
+    border-bottom: 1px solid #2A7AE4;
+}
+
+.contacto__area-texto {
+    margin: .5rem 0rem .5rem 2rem;
+    padding: 1rem 1rem;
+    font-family: "Raleway";
+    font-size: .9rem;
+    border: none;
+    border-bottom: 1px solid #d3d1d1;
+    border-radius: 3px;
+}
+
+.contacto__enviar {
+    margin: .5rem 0rem .5rem 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    background: #2A7AE4;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.contacto__enviar:hover {
+    background: #ffffff;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
+
+@media screen and (max-width: 768px) {
+    .contacto {
+        margin: 1rem 0 1.5rem 0;
+        padding: 0;
+        width: 100%;  
+        
+    }
+    
+    .contacto__contenido {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+         
+    }
+
+    .contacto__titulo {
+        display: block;
+        text-align: center;
+    }
+    
+    .contacto__marco {
+        display: none;
+    }
+    
+    
+    .contacto__formulario { 
+        
+        align-items: center;       
+        
+    }
+    
+    .contacto__input {
+        margin: .5rem 0;
+        width: 80%;
+    }
+
+    
+    .contacto__area-texto {
+        margin: .5rem 0;
+        width: 80%;
+    }
+    
+    .contacto__enviar {
+        border: 1px solid orange;
+        width: 83%;
+    }
+}

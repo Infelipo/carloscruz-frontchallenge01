@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background: #f5f5f5;
+    font-family:"Raleway", sans-serif;
+    color: #464646;
+}
+
+.rodapie {
+    margin: 0 0 2rem 0;
+}
+.rodapie p {
+    text-align: center;
+    margin: 0;
+    font-size: .9rem;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecera {
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+.encabezado {
+    display: flex;
+    align-items: center;
+    margin: 1rem 3rem 1rem 5rem;
+}
+
+.encabezado__logo {
+    display: flex;
+    align-items: center;
+    width: 30%
+}
+
+.encabezado__imagen {
+    width: 50px;
+    height: 25px;
+    padding-right: 5px;
+}
+
+.encabezado__links {
+    display: flex;
+    width: 67%;
+    justify-content: right;
+}
+
+.encabezado__links-lista {
+    display: flex;
+    padding: 0 0 0 50px;
+}
+
+.encabezado__items-lista {
+    padding: 0 10px;
+    list-style: none;
+}
+
+.encabezado__items-lista:last-child {
+    font-weight: bold;
+}
+
+.encabezado__link {
+    text-decoration: none;
+    color: #464646;
+}
+
+.encabezado__link:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 768px) {
+    .encabezado {
+        
+        margin: 1rem 0;
+        padding: 0;        
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .encabezado__logo {
+        
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .encabezado__imagen {
+        
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .encabezado__links {
+        
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .encabezado__links-lista {
+        
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        
+    }
+
+    .encabezado__items-lista {
+        margin: 0;
+        padding: 15px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #464646;
+        flex-direction: column;
+    }
+}
+
+
+
+/*
+@media screen and (min-width: 375px) {
+    .encabezado {
+        
+        margin: 0;
+        padding: 0;        
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .encabezado__logo {
+        
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .encabezado__imagen {
+        
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .encabezado__links {
+        
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .encabezado__links-lista {
+        
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        
+    }
+
+    .encabezado__items-lista {
+        margin: 0;
+        padding: 15px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #464646;
+        flex-direction: column;
+    }
+}
+*/

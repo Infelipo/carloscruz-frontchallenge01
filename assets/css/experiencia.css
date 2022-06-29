@@ -1,0 +1,130 @@
+.experiencia {
+    align-content: center;
+    margin: 4rem;
+}
+
+.experiencia__titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.experiencia__proyecto-encriptador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.experiencia__marco {
+    width: 70%;
+    height: 400px;
+    background: url("../images/encriptador.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.experiencia__proyecto-ahorcado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experiencia__marco:nth-child(2) {
+    width: 70%;
+    height: 510px;
+    background: url("../images/ahorcado.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.experiencia__tarjeta {
+    margin: 3rem;
+    
+}
+
+.experiencia__nombre-proyecto {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.experiencia__descripcion-proyecto {
+    margin: 0;
+    padding: .4rem 0;
+}
+
+.experiencia__botones-proyecto {
+    padding-top: .7rem;
+}
+
+.experiencia__boton-repositorio {
+    text-decoration: none;
+    padding: .8rem .5rem;
+    margin-right: 1rem; 
+    border: 1px solid #2A7AE4;
+    background: none;
+    color: #2A7AE4;
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.experiencia__boton-demo {
+    text-decoration: none;
+    padding: .8rem 1rem;
+    border: none;
+    background: #2A7AE4;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+@media screen and (max-width: 768px) {
+    .experiencia {
+        
+        width: 100%;
+        margin: 2rem 0;
+        padding: 0;
+    }
+
+    .experiencia__contenido {
+        margin: .5rem 0;    
+    }
+    
+    .experiencia__proyecto-encriptador {
+        
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        
+    }
+    
+    .experiencia__marco {
+        display: none;
+    }
+    
+    .experiencia__proyecto-ahorcado {
+        flex-direction: column;
+        
+    }
+    
+    .experiencia__marco:nth-child(2) {
+        width: 0;
+        height: 0;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .experiencia__proyecto-encriptador {
+
+        flex-direction: column;
+        
+    }
+
+    .experiencia__proyecto-ahorcado {
+        flex-direction: column-reverse;
+        
+    }
+}

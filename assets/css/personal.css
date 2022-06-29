@@ -1,0 +1,73 @@
+
+.personal {
+    margin: 0 3rem 0 3rem;
+}
+
+.personal__skills {
+    margin: 3rem 0 2rem 0;
+}
+
+.personal__hobbies {
+    margin: 0rem 0 3rem 0;
+}
+
+.personal__titulo {
+    text-align: center;
+    
+}
+
+.personal__lista {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.personal__items-lista {
+    background: #ffffff;
+    width: 150px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 1.2rem 1.2rem;    
+}
+
+.personal__skills-icono {
+    width: 2rem;
+    padding-bottom: 1rem;
+}
+
+.personal__link {
+    color: #464646;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .personal {
+        margin: 0;
+        padding: 0;
+        width: 100%;       
+        
+    }
+    
+    .personal__skills {        
+        margin-top: 0;
+    }
+    
+    .personal__lista {
+            
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .personal__items-lista {
+        margin: .5rem 0;
+        height: 6rem;
+    }
+
+
+}
